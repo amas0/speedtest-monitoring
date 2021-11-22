@@ -15,6 +15,7 @@ git clone git@github.com:amas0/speedtest-monitoring.git
 Build and run docker container:
 
 ```
+cd speedtest-monitoring
 docker build -t speedtest-monitoring .
 docker run -d --restart always --name speedtest-monitoring -p 7898:7898 speedtest-monitoring
 ```
