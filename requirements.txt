@@ -1,0 +1,4 @@
+speedtest-cli
+pypika
+fastapi[all]
+requests
